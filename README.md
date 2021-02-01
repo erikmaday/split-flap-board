@@ -1,4 +1,4 @@
-# split-flap
+# split-flap-board
 
 ## Project setup
 ```

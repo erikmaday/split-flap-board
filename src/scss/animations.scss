@@ -1,0 +1,28 @@
+@keyframes flapDownTop {
+  from {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+
+  50%, to {
+    transform: rotateX(90deg);
+    opacity: .5;
+  }
+}
+
+@keyframes flapDownBottom {
+  from, 50% {
+    transform: rotateX(90deg);
+    opacity: .5;
+  }
+
+  90% {
+    transform: rotateX(20deg);
+    opacity: 1;
+  }
+
+  80%, to {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+}
